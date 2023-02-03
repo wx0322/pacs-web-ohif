@@ -26,8 +26,10 @@ window.config = {
     },
     showStudyList: true,
     maxNumberOfWebWorkers: 4,
-    // below flag is for performance reasons, but it might not work for all servers
-    omitQuotationForMultipartRequest: true,
+
+    // below flag is setted to true for performance reasons, but it might not work for all servers
+    // default value is false
+    omitQuotationForMultipartRequest: false,
     showLoadingIndicator: true,
     maxNumRequests: {
         interaction: 100,
