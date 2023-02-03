@@ -76,10 +76,10 @@ const toolbarButtons = [
       isRadio: true, // ?
       // Switch?
       primary: _createToolButton(
-        'Length',
-        'tool-length',
-        'Length',
-        [
+        'Length', // id
+        'tool-length', // icon
+        'Length', // label
+        [ // commands
           {
             commandName: 'setToolActive',
             commandOptions: {
@@ -97,7 +97,7 @@ const toolbarButtons = [
             context: 'CORNERSTONE',
           },
         ],
-        'Length'
+        'Length' // tooltip
       ),
       secondary: {
         icon: 'chevron-down',
