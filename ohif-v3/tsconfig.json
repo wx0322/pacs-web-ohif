@@ -5,6 +5,8 @@
     // Ensure that Babel can safely transpile files in the TypeScript project
     "isolatedModules": false,
     "jsx": "react",
+    // 添加配置，https://stackoverflow.com/questions/67645895/cannot-find-module-students-json-consider-using-resolvejsonmodule-to-im
+    "resolveJsonModule": true,
     "esModuleInterop": true,
     "sourceMap": true,
     "declaration": true,
